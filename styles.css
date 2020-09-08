@@ -267,4 +267,7 @@ nav{
         color: #d9be11;
         text-align: center;    
     }
+    .logo img{
+        display: none;
+    }
 }
