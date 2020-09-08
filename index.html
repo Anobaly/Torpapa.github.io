@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    <div class="logo"><a href="index.html"><img src="avatar.png" alt="error"></a>
+    </div>
     <nav>
         <div class="hamburger">
             <div class="line"></div>

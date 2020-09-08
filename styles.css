@@ -15,7 +15,14 @@ video {
     top: 5px;
     left: 0;
     z-index: -100;
-  }
+}
+.logo img{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 72px;
+    height: 72px;
+}
 
 nav{
     height: 10vh;
