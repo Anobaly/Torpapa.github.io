@@ -35,6 +35,10 @@
         <input type="button" name="" value="Add Törpapa" onclick=
         "window.location='https://discord.com/oauth2/authorize?client_id=745398767326593094&scope=bot&permissions=2146958839' ">
     </section>
+    <section class="footer">
+        <h3>Site created and designed by Anobaly</h1>
+        <h5>Törpapa | Copyright 2020. All rights reserved.</h3>
+    </section>
     <video playsinline autoplay muted loop poster="hatter.jpg" id="bgvid">
         <source src="hatter.webm" type="video/webm">
         <source src="hatter.mp4" type="video/mp4">

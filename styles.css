@@ -167,7 +167,20 @@ nav{
 .landing5 h1{
     color: #ffffff;
 }
-
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer h3{
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+}
+.footer h5{
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+}
 @media screen and (max-width: 768px){
 
     .line {
