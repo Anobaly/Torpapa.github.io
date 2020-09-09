@@ -184,6 +184,51 @@ nav{
 .landing5 h1{
     color: #ffffff;
 }
+.landing6 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 25%;
+}
+.landing6 a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    border: 2px solid #9e0909;
+    padding: 2px 2px;
+    background: #9e0909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 25%;
+}
+.landing6 li{
+    list-style: none;
+    margin-top: 50px;
+}
+.landing6 li button{
+    border:0;
+    background: none;
+    text-align: center;
+    border: 2px solid #9e0909;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+}
+.landing6 button:hover{
+    background: black;
+    color: red;
+}
+.landing6 h1 {
+    color: white;
+}
 
 @media screen and (max-width: 768px){
 
@@ -334,5 +379,50 @@ nav{
     }
     .landing4 button:hover{
         background: #9e0909;
+    }
+    .landing6 {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        left: 25%;
+    }
+    .landing6 a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        border: 2px solid #9e0909;
+        padding: 2px 2px;
+        background: #9e0909;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 25%;
+    }
+    .landing6 li{
+        list-style: none;
+        margin-top: 50px;
+    }
+    .landing6 li button{
+        border:0;
+        background: none;
+        text-align: center;
+        border: 2px solid #9e0909;
+        padding: 14px 40px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 12px;
+    }
+    .landing6 button:hover{
+        background: black;
+        color: red;
+    }
+    .landing6 h1 {
+        color: white;
     }
 }
