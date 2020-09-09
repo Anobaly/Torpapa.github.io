@@ -11,8 +11,6 @@
 </head>
 
 <body>
-    <div class="logo"><a href="index.html"><img src="avatar2.png" alt="error"></a>
-    </div>
     <nav>
         <div class="hamburger">
             <div class="line"></div>
@@ -29,20 +27,12 @@
     </nav>
 
     <section class="landing">
-        <img src="avatar.png" alt="avatar">
+        <img src="ikon3.png" alt="avatar">
         <h1>Törpapa Discord Bot</h1>
         <h4>Made by Anobaly & Norberto</h4>
         <input type="button" name="" value="Add Törpapa" onclick=
         "window.location='https://discord.com/oauth2/authorize?client_id=745398767326593094&scope=bot&permissions=2146958839' ">
     </section>
-    <section class="footer">
-        <h3>Site created and designed by Anobaly</h1>
-        <h5>Törpapa | Copyright 2020. All rights reserved.</h3>
-    </section>
-    <video playsinline autoplay muted loop poster="hatter.jpg" id="bgvid">
-        <source src="hatter.webm" type="video/webm">
-        <source src="hatter.mp4" type="video/mp4">
-      </video>
     <script src="app.js"></script>
 </body>
 
