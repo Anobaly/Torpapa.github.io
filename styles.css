@@ -75,7 +75,7 @@ nav{
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid #9e0909;
     padding: 14px 40px;
     outline: none;
     color: white;
@@ -86,7 +86,7 @@ nav{
     font-size: 16px;
 }
 .landing input[type = "button"]:hover{
-    background: #000;
+    background: #9e0909;
 }
 .landing2 {
     height: 90vh;
@@ -148,6 +148,27 @@ nav{
     transition: 0.25s;
     cursor: pointer;
     font-family: 'Varela Round', sans-serif;
+}
+.landing4 button{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #9e0909;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+}
+.landing4 button:hover{
+    background: #9e0909;
 }
 .landing5 {
     height: 90vh;
@@ -266,5 +287,53 @@ nav{
     }
     .logo img{
         display: none;
+    }
+    .landing4 {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        clip-path: fill-box;
+    }
+    .landing4 h1{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        border:0;
+        background: #000;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #000;
+        padding: 14px 40px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 16px;
+    }
+    .landing4 button{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #9e0909;
+        padding: 14px 40px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+        font-family: 'Varela Round', sans-serif;
+    }
+    .landing4 button:hover{
+        background: #9e0909;
     }
 }
