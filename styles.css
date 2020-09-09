@@ -106,7 +106,6 @@ nav{
 .landing2 p{
     color: #ffffff;
     text-align: left;
-    background-color: #333;
 }
 .landing3 {
     height: 90vh;
@@ -282,7 +281,7 @@ nav{
         height: 45%;
     }
     .landing2 p{
-        color: #d9be11;
+        color: #ffffff;
         text-align: center;    
     }
     .logo img{
