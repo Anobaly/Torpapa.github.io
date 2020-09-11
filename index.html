@@ -23,8 +23,7 @@
             <li><a href="https://anobaly.github.io/Torpapa.github.io/Discord" title="GamerFalva">Discord Szerver</a></li>
             <li><a href="https://anobaly.github.io/Torpapa.github.io/wifijelszo" title="Suli-Wifi">GUEST_VENDEG Jelszó</a></li>
             <li><a href="https://anobaly.github.io/Torpapa.github.io/Credits" title="Credits">Credits</a></li>
-            <li><a href="https://anobaly.github.io/Torpapa.github.io/download" title="Crackek">Downloads</a></li>
-            <img src="szerverikon.png" alt="asd">            
+            <li><a href="https://anobaly.github.io/Torpapa.github.io/download" title="Crackek">Downloads</a></li>           
         </ul>
     </nav>
 
