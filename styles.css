@@ -185,12 +185,9 @@ nav{
     color: #ffffff;
 }
 .landing6 {
-    height: 90vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    left: 25%;
 }
 .landing6 a {
     text-decoration: none;
@@ -201,17 +198,19 @@ nav{
     background: #9e0909;
     display: flex;
     justify-content: center;
-    align-items: center;
-    left: 25%;
 }
-.landing6 li{
+.landing6 a:hover {
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+.landing6 li {
     list-style: none;
     margin-top: 50px;
 }
-.landing6 li button{
+.landing6 input[type = "button"]{
     border:0;
     background: none;
-    text-align: center;
     border: 2px solid #9e0909;
     padding: 14px 40px;
     outline: none;
@@ -220,14 +219,15 @@ nav{
     transition: 0.25s;
     cursor: pointer;
     font-family: 'Varela Round', sans-serif;
-    font-size: 16px;
+    margin-left: 30%;
 }
-.landing6 button:hover{
+.landing6 input[type = "button"]:hover{
     background: black;
     color: red;
 }
 .landing6 h1 {
-    color: white;
+    color: lightgray;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px){
@@ -292,6 +292,9 @@ nav{
         transition: all 0.5s ease 1.0s;
     }
     .nav-links li:nth-child(6){
+        transition: all 0.5s ease 1.2s;
+    }
+    .nav-links li:nth-child(7){
         transition: all 0.5s ease 1.2s;
     }
     li.fade{
@@ -381,12 +384,9 @@ nav{
         background: #9e0909;
     }
     .landing6 {
-        height: 90vh;
         display: flex;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
-        left: 25%;
     }
     .landing6 a {
         text-decoration: none;
@@ -397,17 +397,19 @@ nav{
         background: #9e0909;
         display: flex;
         justify-content: center;
-        align-items: center;
-        left: 25%;
     }
-    .landing6 li{
+    .landing6 a:hover {
+        background: black;
+        color: white;
+        transition: 0.5s;
+    }
+    .landing6 li {
         list-style: none;
         margin-top: 50px;
     }
-    .landing6 li button{
+    .landing6 input[type = "button"]{
         border:0;
         background: none;
-        text-align: center;
         border: 2px solid #9e0909;
         padding: 14px 40px;
         outline: none;
@@ -416,13 +418,15 @@ nav{
         transition: 0.25s;
         cursor: pointer;
         font-family: 'Varela Round', sans-serif;
-        font-size: 12px;
+        margin-left: 19%;
     }
-    .landing6 button:hover{
+    .landing6 input[type = "button"]:hover{
         background: black;
         color: red;
     }
     .landing6 h1 {
-        color: white;
+        color: lightgray;
+        font-size: 16px;
+        text-align: center;
     }
 }
