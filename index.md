@@ -29,6 +29,7 @@
 
     <section class="landing">
         <img src="ikon3.png" alt="avatar">
+        <b>.</b>
         <h1>Törpapa Discord Bot</h1>
         <h4>Made by Anobaly & Norberto</h4>
         <input type="button" name="" value="Add Törpapa" onclick=
