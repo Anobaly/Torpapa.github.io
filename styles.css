@@ -216,7 +216,7 @@ nav{
     list-style: none;
     margin-top: 30px;
 }
-.landing6 input[type = "button"]{
+.landing6 button{
     border:0;
     background: none;
     border: 2px solid #9e0909;
@@ -229,7 +229,7 @@ nav{
     font-family: 'Varela Round', sans-serif;
     margin-left: 30%;
 }
-.landing6 input[type = "button"]:hover{
+.landing6 button:hover{
     background: black;
     color: red;
 }
@@ -416,7 +416,7 @@ nav{
         list-style: none;
         margin-top: 50px;
     }
-    .landing6 input[type = "button"]{
+    .landing6 button{
         border:0;
         background: none;
         border: 2px solid #9e0909;
@@ -429,7 +429,7 @@ nav{
         font-family: 'Varela Round', sans-serif;
         margin-left: 19%;
     }
-    .landing6 input[type = "button"]:hover{
+    .landing6 button:hover{
         background: black;
         color: red;
     }
