@@ -31,7 +31,7 @@
         <img src="ikon3.png" alt="avatar">
         <b>.</b>
         <h1>Törpapa Discord Bot</h1>
-        <h4>Made by Anobaly & Norberto</h4>
+        <h4>Made by Anobaly</h4>
         <input type="button" name="" value="Add Törpapa" onclick=
         "window.location='https://discord.com/oauth2/authorize?client_id=745398767326593094&scope=bot&permissions=2146958839' ">
     </section>
